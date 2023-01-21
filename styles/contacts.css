@@ -1,0 +1,151 @@
+.logo{
+    border:none;
+    width: 15%;
+    height: 25%;
+    border-radius: 0%;
+    margin-left: 40%;
+}
+
+h3{
+margin-left: 38.5%;
+}
+
+img{
+    margin-top: 2%;
+    width: 35px;
+    height: 40px;
+    border: 30px solid rgb(177, 169, 169);
+    border-radius: 50%;
+    background-color: grey;
+}
+
+h1{
+    font-weight: bolder;
+    position: center;
+    margin-left: 30%;
+    font-style: italic;
+}
+
+body{
+    background-color: rgb(223, 214, 214);
+    height: 100vh;
+}
+
+#e{
+    margin-left: 10%;
+}
+
+#p{
+    margin-left: 11%;
+}
+
+#w{
+    margin-left: 12%;
+}
+
+#i{
+    margin-left: 13%;
+}
+
+#f{
+    margin-left: 14%;
+}
+
+#ee{
+    margin-left: 11%;
+    color: red;
+    font-weight: bold;
+}
+
+#pp{
+    margin-left: 14%;
+    color: red;
+    font-weight: bold;
+}
+
+#ww{
+    margin-left: 13.5%;
+    color: red;
+    font-weight: bold;
+}
+
+#ii{
+    margin-left: 13%;
+    color: red;
+    font-weight: bold;
+}
+
+#ff{
+    margin-left: 14%;
+    color: red;
+    font-weight: bold;
+}
+
+#eee{
+    margin-left: 7%;
+}
+
+#ppp{
+    margin-left: 7%;
+}
+
+#www{
+    margin-left: 12.5%;
+}
+
+#iii{
+    margin-left: 15%;
+}
+
+#fff{
+    margin-left: 16.5%;
+}
+
+.FU{
+    margin-left: 47%;
+    border-top: 1px solid grey;
+    padding-top: 5px;
+}
+
+
+a{
+    color: blue;
+    text-decoration: none;
+   
+}
+
+ul > li {
+font-size: 1.1em;
+font-weight: 400;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+ul{
+    color: black;
+    list-style-type: none;
+    padding: 0;
+    width: 40%;
+    height: 3em;
+    margin: 4px auto 4px auto;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: left;
+    border-radius: 15px;
+    position: fixed;
+    
+}
+
+ul > li > a:hover {
+text-decoration: underline;
+color: white;
+background: black;
+border-radius: 20%;
+}
+
+@media (max-width: 650px) {
+    ul {
+display: none;
+    }
+
+}

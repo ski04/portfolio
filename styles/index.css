@@ -1,0 +1,108 @@
+img{
+    
+    border-width: 20px;
+    border-radius: 20%;
+    border-color: black;
+    width: 500px;
+    height: 550px;
+    place-items: right;
+    justify-content: right;
+    margin-left: 65%;
+    margin-top: 0%;
+}
+body{
+    background-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(../images/Home-1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    color: aliceblue;
+}
+
+/* .bars{
+    width: 30px;
+    height: 30px;
+    background-color: ;
+} */
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    
+    color: white;
+}
+
+.hi{
+    color: goldenrod;
+    text-decoration: none;
+    margin-top: 5%;
+}
+
+#what{
+    margin-top: 14.5%;
+    
+    margin-bottom: 1%;
+}
+
+.lm{
+    padding-top: 0;
+    color: goldenrod;
+    
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+   
+}
+
+#bars{
+    width: 30px; 
+    height: 30px; 
+    background-color: white;
+    border-radius: 10%;
+    margin-left: 3%; 
+    margin-top: 0.4%;
+    display: none;
+}
+
+ul > li {
+font-size: 1.1em;
+font-weight: 400;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-inline-end: 25%;
+}
+
+ul{
+    color: aliceblue;
+    list-style-type: none;
+    padding: 0;
+    width: 35%;
+    height: 3em;
+    margin: 4px 0 1px 0;
+    display: flex;
+    align-items: left;
+    border-radius: 15px;
+    
+}
+
+ul > li > a:hover {
+text-decoration: underline;
+color: black;
+background: white;
+
+}
+
+@media (max-width: 650px) {
+    ul {
+display: none;
+    }
+#bars{
+    display: block;
+}
+}
+    
+
+
