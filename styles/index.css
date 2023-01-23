@@ -52,57 +52,55 @@ h1{
     
 }
 
-a{
-    color: aliceblue;
-    text-decoration: none;
-   
-}
-
-#bars{
-    width: 30px; 
-    height: 30px; 
-    background-color: white;
-    border-radius: 10%;
-    margin-left: 3%; 
-    margin-top: 0.4%;
-    display: none;
-}
-
-ul > li {
-font-size: 1.1em;
-font-weight: 400;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-padding-inline-end: 25%;
-}
-
-ul{
-    color: aliceblue;
-    list-style-type: none;
-    padding: 0;
-    width: 35%;
-    height: 3em;
-    margin: 4px 0 1px 0;
-    display: flex;
-    align-items: left;
-    border-radius: 15px;
+.topnav {
     
-}
+    overflow: hidden;
+  }
 
-ul > li > a:hover {
-text-decoration: underline;
-color: black;
-background: white;
-
-}
-
-@media (max-width: 650px) {
-    ul {
-display: none;
-    }
-#bars{
+  .topnav a {
+    float: left;
     display: block;
-}
-}
-    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
 
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
+  .topnav a.active {
+    background-color: goldenrod;
+    color: white;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  
